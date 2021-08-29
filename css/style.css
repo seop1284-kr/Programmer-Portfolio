@@ -245,22 +245,59 @@ content .container {
     background-color:whitesmoke
 }
 
+.section-skills .title {
+    font-family: '맑은 고딕', Noto Sans KR, sans-serif;
+    font-size: max(2.5vw, 25px);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10vw;
+
+}
+
+
+
+
+
+
+
 
 /* section projects */
 .section-projects {
     width: 100%;
     height: 600px;
-    background-color: yellow;
 }
+
+.section-projects .title {
+    font-family: '맑은 고딕', Noto Sans KR, sans-serif;
+    font-size: max(2.5vw, 25px);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10vw;
+
+}
+
+
+
+
+
+
 
 
 /* section contact */
 .section-contact {
     width: 100%;
     height: 600px;
-    background-color: pink;
+    background-color:whitesmoke
 }
 
+.section-contact .title {
+    font-family: '맑은 고딕', Noto Sans KR, sans-serif;
+    font-size: max(2.5vw, 25px);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10vw;
+
+}
 
 
 @media (min-width: 768px) {
