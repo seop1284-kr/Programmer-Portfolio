@@ -7,6 +7,18 @@
 
 /* 기본 설정: 페이지 전체 */
 
+* {
+    box-sizing: border-box;
+    /* 오페라(Opera) */
+
+    -moz-box-sizing: border-box;
+    /* 파이어폭스(Firefox)*/
+
+    -webkit-box-sizing: border-box;
+    /* 웹킷(Webkit) & 크롬(Chrome) */
+}
+
+
 html {
     height: 100%;
     width: 100vw;
@@ -285,9 +297,6 @@ content .container {
 .section-projects {
     width: 100%;
     padding: 50px 0;
-
-    /* temp */
-    height: 600px;
 }
 
 .section-projects .title {
