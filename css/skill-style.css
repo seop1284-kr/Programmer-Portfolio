@@ -1,0 +1,45 @@
+.skill-box {
+    display: table;
+    text-align: center;
+    margin: 35px auto;
+
+    width: fit-content;
+    height: fit-content;
+}
+
+.skill-icon {
+    text-align: center;
+    display: inline-block;
+    width: 115px;
+    height: 115px;
+    border-radius: 30px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .2), 0 3px 6px rgba(0, 0, 0, .2)
+}
+
+.skill-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    border-radius: 30px 30px;
+    width: 115px;
+    height: 115px;
+    padding: 10px;
+    opacity: .8;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    visibility: hidden
+}
+
+.skill-icon:hover .skill-label {
+    visibility: visible;
+    animation: fadeout1 .5s;
+    -moz-animation: fadeout1 .5s;
+    -webkit-animation: fadeout1 .5s;
+    -o-animation: fadeout1 .5s
+}
