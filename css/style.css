@@ -156,7 +156,7 @@ content .container {
 
 .section-home .bg {
     /* The image used */
-    background-image: url("../images/test2.jpg");
+    background-image: url("../images/home-bg.png");
 
     /* Center and scale the image nicely */
     background-repeat: no-repeat;
@@ -308,8 +308,8 @@ content .container {
 
 
 .section-projects .icon-img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 
