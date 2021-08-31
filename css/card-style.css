@@ -43,14 +43,26 @@
     word-break:break-all;
 }
 
-.card ul {
+.card .info-ul {
     display: table;
     padding: 0;
     list-style: none;
 
 }
 
-.card li {
+.card .info-li {
     display: inline-block;
     padding-right: 0.5rem;
+}
+
+.card .link-ul {
+    display: table;
+    padding: 0;
+    list-style: none;
+}
+
+.card .link-li {
+    display: inline-block;
+    padding-right: 1rem;
+
 }
